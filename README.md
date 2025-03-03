@@ -1,10 +1,19 @@
 # README
 
-Goal: Set up directus authentication for login, logout, signup
+## Goals
+
+- MVP: Set up directus authentication for login, logout, signup -- **DONE**
+- Next Step: Set up author role to only be able to edit their own content
+- Modularization:
+  - Review code to plan for DRY high level (layouts)
+  - Review code for needed error handling (user facing and dev facing)
+  - Outline and build components (minimal styles, focus on functionality)
+  - Style content and make it responsive
 
 ## Debugging
 
 1. form returning 404 page when using register action
+   - **fix!**: needed to specify `app/api/register/route.js` -- use of `route.js` is important for next
 
 ## Notes
 
